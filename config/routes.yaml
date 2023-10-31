@@ -1,0 +1,14 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+
+home:
+    path: /home
+    controller: App\Controller\GarageController::home
+
+vente_voitures:
+    path: /vente_voitures
+    controller: App\Controller\VenteVoituresController::vente_voitures
+
